@@ -1,0 +1,117 @@
+
+body{
+
+	display: inline-flex;
+    flex-direction: column;
+    height:100vh;
+	width: 100%;
+	margin: auto;
+	background-image: url(https://cdn.pixabay.com/photo/2015/05/26/23/52/technology-785742_960_720.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center;
+	
+	
+
+}
+
+#img{
+
+	width: 300px;
+	height: 300px;
+	display:block;
+	margin:auto;
+	overflow: hidden;
+
+}
+.container{
+
+	background-color: rgba(255, 255, 255, 0.849);
+	display:block;
+	margin:auto;
+	overflow: hidden;
+	border-radius: 20px;
+
+}
+
+#input{
+	width: 180px;
+	height: 50px;
+	display: block;
+	margin: auto;
+	overflow: hidden;
+	margin-top: 20px;
+	border-radius: 10px;
+	
+
+
+
+}
+#dato{
+	display:block;
+	margin:auto;
+	text-align: center;
+	padding: 15px;
+	overflow: hidden;
+	width: 150px;
+	height: 10px;
+	margin-bottom: 20px;
+	border-color: darkslategray;
+	border-radius: 15px;
+	
+
+}
+
+#texto1{
+
+	
+	display:block;
+	margin: 15px;
+	text-align: center;
+	overflow: hidden;
+	font-family:  monospace;
+	font-size: 20px;
+
+	
+	
+}
+
+#preg{
+
+	display:block;
+	margin:auto;
+	text-align: center;
+	margin: 15px;
+	overflow: hidden;
+	font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+#boton{
+
+	width: 180px;
+	height: 50px;
+	display: block;
+	margin: auto;
+	overflow: hidden;
+	background-color: #049e04; /* Green */
+	border-radius: 5px;
+	transition-duration: 0.4s;
+	color: rgb(255, 255, 255);
+	
+
+}
+#boton:hover {
+	background-color: #07d60e; /* Green */
+	color: rgb(3, 3, 3);
+  }
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
