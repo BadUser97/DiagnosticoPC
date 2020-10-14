@@ -29,7 +29,6 @@ body{
 	background-color: rgba(255, 255, 255, 0.849);
 	display:block;
 	margin:auto;
-	overflow: hidden;
 	border-radius: 20px;
 
 }
@@ -102,6 +101,10 @@ body{
 	
 
 }
+#boton:hover {
+	background-color: #07d60e; /* Green */
+	color: rgb(3, 3, 3);
+  }
 
 #resolucion{
 
@@ -114,10 +117,6 @@ body{
 	background-color: rgb(47, 255, 20);
 	
 
-  }
-#boton:hover {
-	background-color: #07d60e; /* Green */
-	color: rgb(3, 3, 3);
   }
 
 
