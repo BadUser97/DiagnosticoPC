@@ -102,6 +102,19 @@ body{
 	
 
 }
+
+#resolucion{
+
+	display:block;
+	margin:auto;
+	text-align: center;
+	margin: 15px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px;
+	background-color: rgb(47, 255, 20);
+	
+
+  }
 #boton:hover {
 	background-color: #07d60e; /* Green */
 	color: rgb(3, 3, 3);
